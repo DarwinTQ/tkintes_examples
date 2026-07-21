@@ -1,6 +1,6 @@
 import re
-import tkinter as tk
-from tkinter import ttk
+
+
 class Model:
     def __init__(self, email):
         self.email = email

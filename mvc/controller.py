@@ -20,4 +20,4 @@ class Controller:
 
         except ValueError as error:
             # show an error message
-            self.view.show_error(error)
+            self.view.show_error(str(error))
